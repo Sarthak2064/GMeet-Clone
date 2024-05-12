@@ -1,6 +1,6 @@
 # GMeet-Clone
 
-```markdown
+
 # Project Name
 
 This is a Node.js project that does [brief description of what the project does].
