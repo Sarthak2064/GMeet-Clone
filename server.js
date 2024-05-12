@@ -9,7 +9,7 @@ const fileUpload = require("express-fileupload");
 const io = require("socket.io")(server, {
   allowEIO3: true, // false by default
 });
-app.use(express.static(path.join(__dirname, "")));
+app.use(express.static(path.join(__dirname, "action.html")));
 var userConnections = [];
 io.on("connection", (socket) => {
   console.log("socket id is ", socket.id);
