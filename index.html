@@ -15,10 +15,10 @@
         $(function(){
             const urlParams = new URLSearchParams(window.location.search);
             var meeting_id = urlParams.get('meetingID');
-            var user_id = window.prompt('Enter your userid');
+            var user_id = window.prompt('Enter your Name');
 
             if(!user_id || !meeting_id){
-                alert('User id or meeting id missing');
+                alert('User Name or meeting id missing');
                 window.location.href = '/action.html';
                 return;
             }
